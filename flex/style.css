@@ -1,0 +1,236 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(29, 29, 29);
+    color: #fff;
+}
+
+header{
+    display: flex;
+    background-color: rgb(102, 15, 184);
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+
+nav ul  {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: #fff;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+main {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 10px;
+}
+
+.container {
+    flex: 2;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;  
+}
+
+.container img {
+    background-color: rgba(238, 237, 237, 0);
+    border-radius: 8px;
+}
+
+.container:hover img {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    flex: 3;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container:hover {
+    flex: 3;
+    background-color: rgb(46, 89, 170);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+  
+}
+
+.container1 {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    flex: 2;
+}
+
+.container1:hover {
+    flex: 3;
+    background-color: rgb(79, 17, 116);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container1:hover img {
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    flex: 3;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container2{
+    flex: 2;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+.container2:hover{
+    flex: 3;
+    background-color: rgb(53, 49, 105);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container2:hover img{
+    flex: 3;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container3 {
+    flex:2;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.container3:hover {
+    flex: 3;
+    background-color: rgb(114, 114, 114);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container3:hover img {
+    flex: 3;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container4 {
+    flex:2;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.container4:hover {
+    flex: 3;
+    background-color: rgb(61, 46, 71);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container4:hover img {
+    flex: 3;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container5 {
+    flex:2;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.container5:hover {
+    flex: 3;
+    background-color: rgb(134, 23, 23);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+.container5:hover img{
+    flex: 3;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px rgb(3, 3, 3);
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    color: rgb(29, 29, 29);
+    width: 100%;
+    text-align: center;
+}
